@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ratana — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a class="brand" href="#top">Ratana</a>
+    <a href="#experience">Experience</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1>Hi, I’m Ratana</h1>
+    <p>I’m a data science graduate with a passion for turning data into actionable insights. My interest lies in Machine Learning, deep learning, computer vision and AI.</p>
+
+    <!-- OPEN TO WORK -->
+    <div class="status">
+  <div class="status-info">
+    <div class="live">
+      <span class="dot"></span> Open to work
+    </div>
+
+    <dl>
+      <dt>Role</dt>
+      <dd>Data Scientist | Data Analyst</dd>
+
+      <dt>Type</dt>
+      <dd>Full-time</dd>
+
+      <dt>Location</dt>
+      <dd>Phnom Penh or remote</dd>
+    </dl>
+  </div>
+
+  <div class="status-mascot">
+    <svg viewBox="0 0 460 300" role="img" aria-label="Cute cat coding">
+        <defs><path id="sp" d="M0,-10Q1.5,-1.5 10,0Q1.5,1.5 0,10Q-1.5,1.5 -10,0Q-1.5,-1.5 0,-10Z"/></defs>
+        <ellipse class="cat-blob" cx="250" cy="170" rx="215" ry="120"/>
+
+        <!-- code window -->
+        <rect x="24" y="26" width="190" height="112" rx="10" fill="#c5d8f3" stroke="#9db9e3" stroke-width="1.5"/>
+        <circle cx="38" cy="40" r="3" fill="#8fb4ee"/><circle cx="50" cy="40" r="3" fill="#8fb4ee"/><circle cx="62" cy="40" r="3" fill="#8fb4ee"/>
+        <text x="42" y="66" font-size="14" font-weight="700" fill="#4f74b8" font-family="monospace">&gt;_</text>
+        <rect class="a-line" x="44" y="82" width="96" height="6" rx="3" fill="#8fb4ee"/>
+        <rect class="a-line" style="animation-delay:.35s" x="60" y="96" width="70" height="6" rx="3" fill="#f3c9a0"/>
+        <rect class="a-line" style="animation-delay:.7s" x="44" y="110" width="118" height="6" rx="3" fill="#9bd6ad"/>
+        <rect class="a-line" style="animation-delay:1.05s" x="60" y="124" width="80" height="6" rx="3" fill="#8fb4ee"/>
+
+        <!-- floating bits -->
+        <g transform="translate(236,40) scale(.9)"><use class="a-spark" href="#sp" fill="#6fa0e8"/></g>
+        <g transform="translate(36,178) scale(.75)"><use class="a-spark" style="animation-delay:.8s" href="#sp" fill="#6fa0e8"/></g>
+        <g transform="translate(436,150) scale(.7)"><use class="a-spark" style="animation-delay:1.4s" href="#sp" fill="#6fa0e8"/></g>
+        <text x="318" y="48" font-size="22" font-weight="700" fill="#6fa0e8" font-family="monospace">&lt;/&gt;</text>
+        <rect class="a-bar" x="392" y="76" width="10" height="18" rx="2" fill="#8fb4ee"/>
+        <rect class="a-bar" style="animation-delay:.3s" x="406" y="62" width="10" height="32" rx="2" fill="#8fb4ee"/>
+        <rect class="a-bar" style="animation-delay:.6s" x="420" y="48" width="10" height="46" rx="2" fill="#8fb4ee"/>
+
+        <!-- plant -->
+        <g class="a-plant">
+          <path d="M424 262V226" stroke="#5fb582" stroke-width="3" stroke-linecap="round"/>
+          <ellipse cx="412" cy="238" rx="9" ry="16" transform="rotate(-30 412 238)" fill="#cdeed7" stroke="#5fb582" stroke-width="2"/>
+          <ellipse cx="436" cy="234" rx="9" ry="16" transform="rotate(30 436 234)" fill="#cdeed7" stroke="#5fb582" stroke-width="2"/>
+          <ellipse cx="424" cy="224" rx="8" ry="15" fill="#cdeed7" stroke="#5fb582" stroke-width="2"/>
+        </g>
+        <path d="M408 262H440L436 290H412Z" fill="#f1f6fb" stroke="#2b3a67" stroke-width="2" stroke-linejoin="round"/>
+
+        <!-- cat -->
+        <g class="a-bob">
+          <g class="a-tail"><path d="M372 238C400 236 408 200 396 176" stroke="#bcc6dc" stroke-width="14" stroke-linecap="round" fill="none"/></g>
+          <ellipse cx="318" cy="218" rx="58" ry="46" fill="#fff" stroke="#2b3a67" stroke-width="2.5"/>
+          <polygon points="272,118 280,76 312,98" fill="#fff" stroke="#2b3a67" stroke-width="2.5" stroke-linejoin="round"/>
+          <polygon points="324,98 356,76 364,118" fill="#fff" stroke="#2b3a67" stroke-width="2.5" stroke-linejoin="round"/>
+          <polygon points="281,106 285,86 303,99" fill="#f6b5b5"/><polygon points="333,99 351,86 355,106" fill="#f6b5b5"/>
+          <ellipse cx="318" cy="140" rx="56" ry="48" fill="#fff" stroke="#2b3a67" stroke-width="2.5"/>
+          <path d="M264 128Q285 88 332 98Q302 112 288 138Z" fill="#c3cbe0"/>
+          <path d="M262 148C258 72 378 72 374 148" stroke="#7fa8e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <ellipse cx="262" cy="152" rx="11" ry="17" fill="#9dbcf0" stroke="#2b3a67" stroke-width="2.5"/>
+          <ellipse cx="374" cy="152" rx="11" ry="17" fill="#9dbcf0" stroke="#2b3a67" stroke-width="2.5"/>
+          <circle cx="374" cy="152" r="4" fill="#fff"/><circle cx="262" cy="152" r="4" fill="#fff"/>
+          <ellipse class="a-eye" cx="298" cy="146" rx="5" ry="7" fill="#2b3a67"/>
+          <ellipse class="a-eye" cx="338" cy="146" rx="5" ry="7" fill="#2b3a67"/>
+          <ellipse cx="288" cy="159" rx="8" ry="5" fill="#ffc9c9" opacity=".6"/><ellipse cx="348" cy="159" rx="8" ry="5" fill="#ffc9c9" opacity=".6"/>
+          <ellipse cx="318" cy="156" rx="3" ry="2" fill="#f4a6a6"/>
+          <path d="M311 161q3.5 4 7 0q3.5 4 7 0" stroke="#2b3a67" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </g>
+
+        <!-- books -->
+        <rect x="22" y="226" width="104" height="18" rx="3" fill="#7ba6dd" stroke="#2b3a67" stroke-width="1.5"/>
+        <rect x="18" y="244" width="108" height="18" rx="3" fill="#7fb3c8" stroke="#2b3a67" stroke-width="1.5"/>
+        <rect x="22" y="262" width="104" height="18" rx="3" fill="#6a7fcb" stroke="#2b3a67" stroke-width="1.5"/>
+        <g font-size="9" fill="#fff" font-family="system-ui,sans-serif"><text x="30" y="239">Python</text><text x="26" y="257">Data Science</text><text x="30" y="275">Machine Learning</text></g>
+
+        <!-- laptop -->
+        <g transform="rotate(-5 205 215)">
+          <rect x="150" y="178" width="112" height="72" rx="8" fill="#a9c9f6" stroke="#2b3a67" stroke-width="2.5"/>
+          <ellipse cx="206" cy="220" rx="9" ry="7" fill="#fff"/>
+          <circle cx="194" cy="210" r="3" fill="#fff"/><circle cx="201" cy="204" r="3" fill="#fff"/><circle cx="211" cy="204" r="3" fill="#fff"/><circle cx="218" cy="210" r="3" fill="#fff"/>
+        </g>
+        <rect x="138" y="250" width="140" height="12" rx="6" fill="#bcd6f9" stroke="#2b3a67" stroke-width="2.5"/>
+        <ellipse class="a-paw" cx="284" cy="244" rx="12" ry="8" fill="#fff" stroke="#2b3a67" stroke-width="2.5"/>
+        <ellipse class="a-paw b" cx="308" cy="248" rx="12" ry="8" fill="#fff" stroke="#2b3a67" stroke-width="2.5"/>
+
+        <!-- mug -->
+        <path class="a-steam" d="M362 238q-4-8 0-14q4-6 0-12" stroke="#b9c8e4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path class="a-steam" style="animation-delay:1.2s" d="M374 238q-4-8 0-14q4-6 0-12" stroke="#b9c8e4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M384 254q12 0 12 10q0 10-12 10" stroke="#2b3a67" stroke-width="3" fill="none"/>
+        <rect x="352" y="246" width="32" height="30" rx="6" fill="#fff" stroke="#2b3a67" stroke-width="2.5"/>
+        <circle cx="368" cy="262" r="6" fill="#c9d3e8"/>
+      </svg>
+    <span>This is Mia, building something cool :D ✨</span>
+  </div>
+</div>
+  </header>
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="tabs" role="tablist" aria-label="Experience type">
+      <button role="tab" id="t1" aria-controls="p1" aria-selected="true">💼 Professional</button>
+      <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">💚 Volunteer</button>
+      <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">🏆 Others</button>
+    </div>
+
+    <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1">
+      <div class="item">
+        <div class="pic">💼</div>
+        <div class="row"><h3>Data Analyst and Annotator, OEI Cambodia</h3><span class="meta">2025 – Present</span></div>
+        <ul>
+          <li>Annotated accurate datasets for computer vision projects.</li>
+          <li>Analysed image metadata and identified patterns</li>
+        </ul>
+        <span class="tag">Python</span>
+        <span class="tag">OpenCV</span>
+        <span class="tag">SQL</span>
+      </div>
+      <div class="item">
+        <div class="pic">🏢</div>
+        <div class="row"><h3>Assurance Intern, EY Cambodia</h3><span class="meta">2025</span></div>
+        <ul>
+          <li>Assisted with audit procedures and documentation</li>
+          <li>Gained a basic understanding of International Financial Reporting Standards (IFRS)</li>
+          <li>Explored Loss Given Default (LGD) modeling</li>
+        </ul>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">EDA</span>
+      </div>
+    </div>
+
+    <div class="panel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+      <div class="item">
+        <div class="pic">💚</div>
+        <div class="row">
+            <h3>Project Coordinator, Youth Education Support</h3>
+            <span class="meta">2024 – 2025</span>
+        </div>
+        <p>
+            Prepared Memorandums of Understanding (MOUs) and sought
+            Scratch courses and leadership workshops for volunteers.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/yes.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_13-18-13.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_13-18-19.jpg" alt="Youth Education Support">
+        </div>
+      </div>
+      <div class="item">
+        <div class="pic">💚</div>
+        <div class="row">
+            <h3>Teacher Volunteer, E-robots</h3>
+            <span class="meta">2022 – 2024</span>
+        </div>
+        <p>
+            Guided students in learning Canvas in Ratanakiri province.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/photo_2026-10-17_14-08-59.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_14-09-11.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_14-09-16.jpg" alt="Youth Education Support">
+        </div>
+      </div>
+      <div class="item">
+        <div class="pic">💚</div>
+        <div class="row">
+            <h3>Sharing to the West Charity</h3>
+            <span class="meta">2022 – 2024</span>
+        </div>
+        <p>
+            Participated in charity event to students by providing them with school supplies and other necessary items.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/photo_2026-10-17_14-14-49.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_14-14-54.jpg" alt="Youth Education Support">
+            <img src="sources/photo_2026-10-17_14-14-57.jpg" alt="Youth Education Support">
+        </div>
+      </div>
+    </div> <!-- Close p2 Volunteer panel -->
+
+    <div class="panel" id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+      <div class="item">
+        <div class="pic">⭐</div>
+        <div class="row">
+            <h3>Entrepreneurship and Digital Marketing Course</h3>
+            <span class="meta">2024</span>
+        </div>
+        <p>
+            I completed a course on entrepreneurship and digital marketing at Sisters of Code. I learned about business planning, marketing strategies, and digital tools to enhance online presence and reach target audiences effectively.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/photo_2026-10-17_14-29-29.jpg" alt="Sisters of Code">
+            <img src="sources/photo_2026-10-17_14-29-35.jpg" alt="Sisters of Code">
+            <img src="sources/photo_2026-10-17_14-29-43.jpg" alt="Sisters of Code">
+        </div>
+      </div>
+      <div class="item">
+        <div class="pic">⭐</div>
+        <div class="row">
+            <h3>Agro Crea Lab Project</h3>
+            <span class="meta">2023 – 2024</span>
+        </div>
+        <p>
+            I participated in Agro Crea Lab project and won an award.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/photo_2026-10-17_14-40-44.jpg" alt="Agro Crea Lab Project">
+            <img src="sources/photo_2026-10-17_14-40-48.jpg" alt="Agro Crea Lab Project">
+            <img src="sources/photo_2026-10-17_14-41-38.jpg" alt="Agro Crea Lab Project">
+        </div>
+      </div>
+      <div class="item">
+        <div class="pic">⭐</div>
+        <div class="row">
+            <h3>Data Science Bootcamp by Unisco Unitwin</h3>
+            <span class="meta">2022 – 2024</span>
+        </div>
+        <p>
+            Participated in the Data Science Bootcamp organized by Unisco Unitwin, where I gained valuable skills in data machine learning and deep learning.
+        </p>
+        <div class="photo-gallery">
+            <img src="sources/photo_2026-10-17_14-50-55.jpg" alt="Data Science Bootcamp">
+            <img src="sources/photo_2026-10-17_14-51-01.jpg" alt="Data Science Bootcamp">
+            <img src="sources/photo_2026-10-17_14-51-06.jpg" alt="Data Science Bootcamp">
+        </div>
+      </div>
+    </div> <!-- Close p3 Others panel -->
+  </section>
+
+  <!-- CV -->
+  <section id="cv">
+    <h2>CV</h2>
+    <p style="margin:0">My full background in one page.</p>
+    <a class="btn" href="#" download>📄 Download CV (PDF)</a>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <a class="mail" href="mailto:hon.ratanah@gmail.com">hon.ratanah@gmail.com</a>
+    <div><a class="btn" href="mailto:hon.ratanah@gmail.com">💌 Email me</a></div>
+    <div class="links">
+      <a href="https://github.com/ratanahhh">GitHub</a>
+      <a href="https://www.linkedin.com/in/hon-ratana-6a8368286/">LinkedIn</a>
+      <a href="https://t.me/ratanahh">Telegram</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Mia</footer>
+</div>
+
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('[role="tab"]'));
+  function select(t){
+    tabs.forEach(function(x){
+      var on=x===t;
+      x.setAttribute('aria-selected',on);
+      x.tabIndex=on?0:-1;
+      document.getElementById(x.getAttribute('aria-controls')).hidden=!on;
+    });
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){select(t)});
+    t.addEventListener('keydown',function(e){
+      var n=e.key==='ArrowRight'?i+1:e.key==='ArrowLeft'?i-1:null;
+      if(n===null)return;
+      var next=tabs[(n+tabs.length)%tabs.length];
+      next.focus();select(next);
+    });
+  });
+})();
+</script>
+</body>
+</html>
